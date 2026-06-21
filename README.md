@@ -421,16 +421,6 @@ The `stack_fold_preds/` folder stores OOF predictions and probabilities used for
 - The internal independent test set is created from the benchmark feature dataset using stratified splitting.
 - The stacking procedure uses OOF predictions to avoid training the meta-learner on predictions from samples already seen by the base learner.
 
----
-
-## Citation
-
-If you use this repository, please cite the associated DELF-hm5C-RNA study and acknowledge this GitHub repository.
-
-```text
-DELF-hm5C: A Deep Ensemble Learning Framework for RNA 5-Hydroxymethylcytosine Modification Site Prediction.
-GitHub repository: https://github.com/attiqrafiq/DELF-hm5C-RNA
-```
 
 ---
 
